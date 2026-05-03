@@ -66,7 +66,7 @@ terraform-aws-advanced/
 └── .github/
     └── workflows/
         └── terraform.yml
-
+```
 ---
 
 ## Prerequisites
