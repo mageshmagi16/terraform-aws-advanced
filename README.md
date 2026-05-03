@@ -21,21 +21,19 @@ In this project, I created a complete AWS infrastructure:
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 terraform-aws-advanced/
-│
-├── provider.tf
-├── variables.tf
-├── main.tf
-├── outputs.tf
-├── backend.tf
-│
-├── modules/
-│   ├── vpc/
-│   │   ├── main.tf
-│   │   ├── variables.tf
-│   │   └── outputs.tf
+provider.tf
+variables.tf
+main.tf
+outputs.tf
+backend.tf
+modules/
+    vpc/
+         main.tf
+         variables.tf
+         outputs.tf
 │   │
 │   ├── ec2/
 │   ├── alb/
