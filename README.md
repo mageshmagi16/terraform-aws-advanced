@@ -23,23 +23,45 @@ In this project, I created a complete AWS infrastructure:
 
 ## Project Structure
 
+```bash
 terraform-aws-advanced/
-provider.tf
-variables.tf
-main.tf
-outputs.tf
-backend.tf
-modules/
-    vpc/
-         main.tf
-         variables.tf
-         outputs.tf
+│
+├── provider.tf
+├── variables.tf
+├── main.tf
+├── outputs.tf
+├── backend.tf
+│
+├── modules/
+│   ├── vpc/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
 │   │
 │   ├── ec2/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   │
 │   ├── alb/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   │
 │   ├── security_group/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   │
 │   ├── iam/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   │
 │   └── s3/
+│       ├── main.tf
+│       ├── variables.tf
+│       └── outputs.tf
 │
 └── .github/
     └── workflows/
