@@ -3,7 +3,7 @@
 ##  Overview
 This project demonstrates how to automate AWS infrastructure using Terraform.  
 Instead of manually creating resources in AWS, everything is defined using code using Infrastructure as Code (IaC).
-
+ 
 ---
 
 ##  What I Built
